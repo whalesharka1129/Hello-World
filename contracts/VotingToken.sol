@@ -12,4 +12,10 @@ contract VotingToken is ERC20, Ownable {
     function mint(address to, uint256 amount) public onlyOwner {
         _mint(to, amount);
     }
+    function mint2(address to, uint256 amount) public onlyOwner {
+        _mint(to, amount);
+    }
+    function mint3(address to, uint256 amount) public onlyOwner {
+        _mint(to, amount);
+    }
 }
